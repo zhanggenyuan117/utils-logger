@@ -1,0 +1,34 @@
+{
+  "name": "utils-logger",
+  "version": "1.0.7",
+  "description": "前端工具库-console工具",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c && npm run copy",
+    "copy": "cp package.json README.md dist"
+  },
+  "keywords": [
+    "logger",
+    "utils-logger"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.19.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "commander": "^12.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "shelljs": "^0.8.5",
+    "tslib": "^2.6.3",
+    "typescript": "^5.5.4"
+  }
+}

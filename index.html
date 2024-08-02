@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="module">
+        import {
+            info,
+            error,
+            warning,
+            success,
+            picture
+        } from './dist/bundle.js';
+        // 不带标题
+        info('这是基础信息!');
+        // 带标题
+        info('注意看', '这是个男人叫小帅!');
+
+        // 不带标题
+        error('前方的路看似很危险,实际一点也不安全。');
+        // 带标题
+        error('奥德彪', '出来的时候穷 生活总是让我穷 所以现在还是穷。');
+
+        // 不带标题
+        warning('人只要肯吃苦，就有吃不完的苦! ');
+        // 带标题
+        warning('奥德彪', '我并非无路可走 我还有死路一条! ');
+
+        // 不带标题
+        success('没钱的爱情就像香蕉，不是黄了就是绿了！');
+        // 带标题
+        success('奥德彪', '钱没了可以再赚，良心没了便可以赚的更多。 ');
+
+        picture('https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2024%2F0514%2Fd0ea93ebj00sdgx56001xd200u000gtg00hz00a2.jpg&thumbnail=660x2147483647&quality=80&type=jpg');
+
+    </script>
+</body>
+
+</html>
