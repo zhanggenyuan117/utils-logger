@@ -29,3 +29,4 @@ log.picture('https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2024
 
 ```
 
+![Image text](https://gitee.com/zhanggenyuan/utils-logger/blob/master/src/assets/logger2.png)

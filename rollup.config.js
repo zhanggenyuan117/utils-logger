@@ -2,7 +2,7 @@
 import babel from '@rollup/plugin-babel';
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
-import typescript from '@rollup/plugin-typescript';
+// import typescript from '@rollup/plugin-typescript';
 import terser from '@rollup/plugin-terser';
 import json from 'rollup-plugin-json';
 import fs from 'fs';
@@ -40,7 +40,7 @@ export default {
         }),
         resolve(),
         commonjs(),
-        typescript(),
+        // typescript(),
         terser(),
     ]
 }
