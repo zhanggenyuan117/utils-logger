@@ -15,7 +15,7 @@ export default {
             fs.rmdirSync(distPath, { recursive: true });
         }
     },
-    input: './src/main.ts',
+    input: './src/main.js',
     output: [
         {
             name: 'utils-logger',

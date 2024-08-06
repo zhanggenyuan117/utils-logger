@@ -2,6 +2,8 @@
 
 
 ```
+import log from 'utils-logger';
+
 // 不带标题
 log.info('这是基础信息!');
 // 带标题
