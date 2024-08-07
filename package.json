@@ -1,11 +1,11 @@
 {
   "name": "utils-logger",
-  "version": "1.1.4",
+  "version": "1.1.6",
   "description": "前端工具库-console工具",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "npm version patch && rollup -c && npm run copy",
+    "build": "node ./version.js && rollup -c && npm run copy && npm publish",
     "copy": "cp package.json README.md dist"
   },
   "keywords": [
