@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "rollup -c && npm run copy",
+    "build": "npm version patch && rollup -c && npm run copy",
     "copy": "cp package.json README.md dist"
   },
   "keywords": [
